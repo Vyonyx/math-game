@@ -4,9 +4,11 @@ internal class Menu {
   internal void ShowMenu()
   {
     bool isGameOn = true;
+    GameEngine gameEngine = new();
     do {
       Console.Clear();
       Console.WriteLine(@"Welcome to the Math Game! Please select from the options below:
+      ------------------------
       V: Game History
       A: Addition
       S: Subtraction
@@ -19,34 +21,19 @@ internal class Menu {
 
       switch (userInput.ToLower()) {
         case "v":
-          Console.Clear();
-          Console.WriteLine("Game History");
-          Console.WriteLine("Press enter to return back to menu.");
-          Console.ReadLine();
+          ScoreHistory.Display();
           break;
         case "a":
-          Console.Clear();
-          Console.WriteLine("Addition Game");
-          Console.WriteLine("Press enter to return back to menu.");
-          Console.ReadLine();
+          gameEngine.AdditionGame();
           break;
         case "s":
-          Console.Clear();
-          Console.WriteLine("Subtraction Game");
-          Console.WriteLine("Press enter to return back to menu.");
-          Console.ReadLine();
+          gameEngine.SubtractionGame();
           break;
         case "m":
-          Console.Clear();
-          Console.WriteLine("Multiplication Game");
-          Console.WriteLine("Press enter to return back to menu.");
-          Console.ReadLine();
+          gameEngine.SubtractionGame();
           break;
         case "d":
-          Console.Clear();
-          Console.WriteLine("Division Game");
-          Console.WriteLine("Press enter to return back to menu.");
-          Console.ReadLine();
+          gameEngine.SubtractionGame();
           break;
         case "q":
           isGameOn = false;
