@@ -1,0 +1,15 @@
+/Users/shaneelkumar/Projects/MathGame/bin/Debug/net7.0/MathGame
+/Users/shaneelkumar/Projects/MathGame/bin/Debug/net7.0/MathGame.deps.json
+/Users/shaneelkumar/Projects/MathGame/bin/Debug/net7.0/MathGame.runtimeconfig.json
+/Users/shaneelkumar/Projects/MathGame/bin/Debug/net7.0/MathGame.dll
+/Users/shaneelkumar/Projects/MathGame/bin/Debug/net7.0/MathGame.pdb
+/Users/shaneelkumar/Projects/MathGame/obj/Debug/net7.0/MathGame.csproj.AssemblyReference.cache
+/Users/shaneelkumar/Projects/MathGame/obj/Debug/net7.0/MathGame.GeneratedMSBuildEditorConfig.editorconfig
+/Users/shaneelkumar/Projects/MathGame/obj/Debug/net7.0/MathGame.AssemblyInfoInputs.cache
+/Users/shaneelkumar/Projects/MathGame/obj/Debug/net7.0/MathGame.AssemblyInfo.cs
+/Users/shaneelkumar/Projects/MathGame/obj/Debug/net7.0/MathGame.csproj.CoreCompileInputs.cache
+/Users/shaneelkumar/Projects/MathGame/obj/Debug/net7.0/MathGame.dll
+/Users/shaneelkumar/Projects/MathGame/obj/Debug/net7.0/refint/MathGame.dll
+/Users/shaneelkumar/Projects/MathGame/obj/Debug/net7.0/MathGame.pdb
+/Users/shaneelkumar/Projects/MathGame/obj/Debug/net7.0/MathGame.genruntimeconfig.cache
+/Users/shaneelkumar/Projects/MathGame/obj/Debug/net7.0/ref/MathGame.dll
