@@ -8,4 +8,12 @@ internal static class Helpers {
     }
     return str;
   }
+
+  internal static string ValidateNumberFromString(string num) {
+    while (string.IsNullOrEmpty(num) || !Int32.TryParse(num, out _)) {
+      Console.WriteLine("Invalid entry. Please enter a number to answer the question.");
+      num = Console.ReadLine();
+    }
+    return num;
+  }
 }

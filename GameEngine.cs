@@ -14,7 +14,7 @@ internal class GameEngine {
       var firstNumber = random.Next(1, 10);
       var secondNumber = random.Next(1, 10);
       Console.WriteLine($"Solve {firstNumber} + {secondNumber}");
-      var userInput = Console.ReadLine();
+      var userInput = Helpers.ValidateNumberFromString(Console.ReadLine());
       if (int.Parse(userInput) == firstNumber + secondNumber) {
         Console.WriteLine("Correct! Press enter to view next question.");
         score++;
@@ -41,7 +41,7 @@ internal class GameEngine {
       var firstNumber = random.Next(1, 10);
       var secondNumber = random.Next(1, 10);
       Console.WriteLine($"Solve {firstNumber} - {secondNumber}");
-      var userInput = Console.ReadLine();
+      var userInput = Helpers.ValidateNumberFromString(Console.ReadLine());
       if (int.Parse(userInput) == firstNumber - secondNumber) {
         Console.WriteLine("Correct! Press enter to view next question.");
         score++;
