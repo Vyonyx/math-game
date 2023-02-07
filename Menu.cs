@@ -13,25 +13,40 @@ internal class Menu {
       M: Multiplication
       D: Division
       Q: Quit Game
-      ");
+      ------------------------");
 
-      var result = Console.ReadLine();
+      var userInput = Helpers.ValidateNonEmptyString(Console.ReadLine());
 
-      switch (result.ToLower()) {
+      switch (userInput.ToLower()) {
         case "v":
+          Console.Clear();
           Console.WriteLine("Game History");
+          Console.WriteLine("Press enter to return back to menu.");
+          Console.ReadLine();
           break;
         case "a":
+          Console.Clear();
           Console.WriteLine("Addition Game");
+          Console.WriteLine("Press enter to return back to menu.");
+          Console.ReadLine();
           break;
         case "s":
+          Console.Clear();
           Console.WriteLine("Subtraction Game");
+          Console.WriteLine("Press enter to return back to menu.");
+          Console.ReadLine();
           break;
         case "m":
+          Console.Clear();
           Console.WriteLine("Multiplication Game");
+          Console.WriteLine("Press enter to return back to menu.");
+          Console.ReadLine();
           break;
         case "d":
+          Console.Clear();
           Console.WriteLine("Division Game");
+          Console.WriteLine("Press enter to return back to menu.");
+          Console.ReadLine();
           break;
         case "q":
           isGameOn = false;
