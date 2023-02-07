@@ -48,4 +48,11 @@ internal class Menu {
       }
     } while (isGameOn);
   }
+
+  internal enum GameMode {
+    Addition,
+    Subtraction,
+    Multiplication,
+    Division
+  }
 }

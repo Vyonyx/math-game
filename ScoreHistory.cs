@@ -15,7 +15,7 @@ internal static class ScoreHistory {
     Console.ReadLine();
   }
 
-  internal static void AddToHistory(int score, string gameMode) {
+  internal static void AddToHistory(int score, Menu.GameMode gameMode) {
     history.Add($"{DateTime.Now} - {gameMode}: {score}");
   }
 }

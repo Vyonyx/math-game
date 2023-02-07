@@ -5,9 +5,10 @@ internal class GameEngine {
   {
     var random = new Random();
     var score = 0;
+    var mode = Menu.GameMode.Addition;
 
     Console.Clear();
-    Console.WriteLine("Addition Game");
+    Console.WriteLine($"{mode} Game");
 
     for (int i = 0; i < 3; i++) {
       var firstNumber = random.Next(1, 10);
@@ -23,7 +24,7 @@ internal class GameEngine {
       Console.ReadLine();
     }
     Console.WriteLine($"Your score is: {score}");
-    ScoreHistory.AddToHistory(score, "Addition");
+    ScoreHistory.AddToHistory(score, mode);
     ExitGameMode();
   }
 
@@ -31,9 +32,10 @@ internal class GameEngine {
   {
     var random = new Random();
     var score = 0;
+    var mode = Menu.GameMode.Subtraction;
     
     Console.Clear();
-    Console.WriteLine("Subtraction Game");
+    Console.WriteLine($"{mode} Game");
 
     for (int i = 0; i < 3; i++) {
       var firstNumber = random.Next(1, 10);
@@ -49,7 +51,7 @@ internal class GameEngine {
       Console.ReadLine();
     }
     Console.WriteLine($"Your score is: {score}");
-    ScoreHistory.AddToHistory(score, "Addition");
+    ScoreHistory.AddToHistory(score, mode);
     ExitGameMode();
 
   }
