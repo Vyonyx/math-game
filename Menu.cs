@@ -30,10 +30,10 @@ internal class Menu {
           gameEngine.SubtractionGame();
           break;
         case "m":
-          gameEngine.SubtractionGame();
+          gameEngine.MultiplicationGame();
           break;
         case "d":
-          gameEngine.SubtractionGame();
+          gameEngine.DivisionGame();
           break;
         case "q":
           isGameOn = false;
